@@ -1,0 +1,16 @@
+$text-primary: #fed136;
+
+@import 'header';
+@import 'nav';
+@import 'main_image';
+@import 'statistics';
+@import 'benefits';
+@import 'custom_slider';
+@import 'call_back';
+@import 'footer';
+
+body {
+	margin: 0 auto;
+	max-width: 1400px;
+	min-width: 320px;
+}

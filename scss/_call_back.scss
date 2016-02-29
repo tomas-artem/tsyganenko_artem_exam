@@ -1,0 +1,46 @@
+.call_back {
+	min-height: 210px;
+	font-family: 'Fira Sans', sans-serif;
+	background-color: #115fd4;
+	
+	h3 {
+		color: #f3f7f6;
+		text-transform: uppercase;
+		font-size: 30px;
+		padding-top: 20px;
+	}
+	
+	.form_call {
+		padding-top: 30px;
+	}
+	.item_title {
+		color: #f3f7f6;
+		font-size: 18px;
+		text-transform: uppercase;
+		padding-right: 10px;
+	}
+	
+	.btn_submit {
+		color: #115fd4;
+		text-transform: uppercase;
+		border-radius: 0;
+		font-size: 18px;
+		background-color: #ffffff;
+		width: 107px;
+		height: 54px;
+		margin-bottom: 30px;
+	}
+	
+	input {
+		margin-top: 16px;
+		padding-left: 10px;
+	}
+	.text-danger {
+		color: #e74c3c;
+}
+	.btn_submit:focus, .btn_submit:hover {
+		background-color: yellow;
+	}
+}
+	
+	

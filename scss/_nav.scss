@@ -1,0 +1,47 @@
+nav {
+	min-height: 60px;
+}
+.nav_custom {
+	font-family: 'Fira Sans', sans-serif;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-color: #1c4489;
+}
+
+.navbar-default .navbar-nav>li {
+	text-transform: uppercase;
+	padding-left: 45px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #f3f7f6;
+	&:hover {
+		color: yellow;
+	}
+	&:focus {
+		color:red;
+	}
+	
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover
+{
+	background-color: #115fd4;
+	color: #f3f7f6;
+}
+.navbar-nav > li > .dropdown-menu a:hover {
+background-color: #115fd4;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	background-color: #1c4489;
+	a {
+			color: #f3f7f6;
+		&:hover {
+		color: yellow;
+	}
+	&:focus {
+		color:red;
+	}
+
+	}
+}

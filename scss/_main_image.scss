@@ -1,0 +1,47 @@
+.main_image {
+	padding-top: 25px;
+	font-family: 'Fira Sans', sans-serif;
+	color: #f3f7f6;
+	min-height: 400px;
+	background-image: url(../img/shipping.png);
+	background-position: center center;
+	background-repeat: none;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	
+	h2 {
+		text-transform: uppercase;
+		font-size: 45px;
+		color: #f3f7f6;
+	}
+	
+	h3 {
+		font-size: 25px;
+		color: #f3f7f6;
+		
+	}
+	
+	.btn-xl {
+		border-radius: 0;
+		color: #ffffff;
+		border: solid 2px #ffffff;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 17px;
+		padding: 20px 25px;
+	}
+	
+	.btn-xl:hover,
+	.btn-xl:focus,
+	.btn-xl:active,
+	.btn-xl.active,
+	.open .dropdown-toggle.btn-xl {
+		color: blue;
+		opacity: 0.6;
+		border-color: red;
+	}
+	
+}
